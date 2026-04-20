@@ -133,7 +133,7 @@ function getDogTarget(id, currentMode) {
   let tx, ty;
   let time = millis() * 0.003;
   let centerX = width / 2;
-  let centerY = height - 1000;
+  let centerY = height /2+200;
 
   if (currentMode === "happy_dance") {
     centerX += sin(time * 10) * 40; 
