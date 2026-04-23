@@ -120,7 +120,7 @@ function updateGestureLogic() {
     waveTimer--;
   } else if (fingersUp === 1) {
     mode = "sit";
-  } else if (fingersUp >= 4 && spread > 180) { 
+  } else if (fingersUp >= 4 && spread > 100) { 
     mode = "paw";
   } else {
     mode = "dog_idle"; // Default state when first detected
